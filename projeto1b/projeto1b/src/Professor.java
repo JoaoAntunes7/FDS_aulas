@@ -2,7 +2,7 @@
 public class Professor {
  private String nome;
  private int anosExperiencia;
- public Professor(String nome, int anosExperiencia) {
+ public Professor(String nome, int anosExperiencia) { //classe contrutura
  this.nome = nome;
  this.anosExperiencia = anosExperiencia;
  }
@@ -12,7 +12,7 @@ public class Professor {
  public int getAnosExperiencia() {
  return anosExperiencia;
  }
- public String classifica() {
+ public String classifica() { //Define classe do professor
  if(anosExperiencia>=0 && anosExperiencia<=5)
  return "Assistente";
  else if(anosExperiencia>=6 && anosExperiencia <=10)
