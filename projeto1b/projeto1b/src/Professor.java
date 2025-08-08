@@ -1,7 +1,7 @@
 public class Professor {
  private String nome;
  private int anosExperiencia;
- public Professor(String nome, int anosExperiencia) {
+ public Professor(String nome, int anosExperiencia) { //classe contrutura
  this.nome = nome;
  this.anosExperiencia = anosExperiencia;
  }
