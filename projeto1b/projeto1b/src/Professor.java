@@ -11,7 +11,7 @@ public class Professor {
  public int getAnosExperiencia() {
  return anosExperiencia;
  }
- public String classifica() {
+ public String classifica() { //Define classe do professor
  if(anosExperiencia>=0 && anosExperiencia<=5)
  return "Assistente";
  else if(anosExperiencia>=6 && anosExperiencia <=10)
